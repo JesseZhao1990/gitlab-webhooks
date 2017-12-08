@@ -79,6 +79,17 @@ npm run start
 
 ```
 
+## 写在最后
+
+本项目用的是pm2启动，如果想监控项目运行的情况，需要把pm2装到全局，然后运行pm2 monit
+
+```
+npm install -g pm2
+pm2 monit
+
+```
+pm2的文档:[https://www.npmjs.com/package/pm2](https://www.npmjs.com/package/pm2)
+
 
 
 
