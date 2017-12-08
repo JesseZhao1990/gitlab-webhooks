@@ -16,7 +16,7 @@ echo "changing permissions..."
 chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
 
 #install and build
-echo "start building…………………………"
+echo "start building......"
 npm install
 npm run build
 echo "Finished."
