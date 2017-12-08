@@ -16,7 +16,7 @@ gitlab的webhook是当你在gitlab上触发一个事件的时候，gitlab就向�
 ## 使用步骤
 
 ### 1. 点击gitlab的项目中的设置按钮下的webhooks，进入到设置页面
-![](./images/01.png =300x300)
+![](./images/01.png)
 
 ### 2.进入设置页面，填写代码要部署的机器的ip以及端口，后边跟上/webhook,如下图的示例。点击Add Webhook
 ![](./images/02.png)
