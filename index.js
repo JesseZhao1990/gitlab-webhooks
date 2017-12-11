@@ -3,8 +3,8 @@
 
 var http = require('http')
 var createHandler = require('gitlab-webhook-handler')
-var handler = createHandler({ path: '/webhook'})
 var config = require('./config.js')
+var handler = createHandler({ path: `${config.location}`})
 
 //listen
 http.createServer(function (req, res) {
