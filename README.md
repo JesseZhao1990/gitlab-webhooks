@@ -90,6 +90,9 @@ pm2 monit
 ```
 pm2的文档:[https://www.npmjs.com/package/pm2](https://www.npmjs.com/package/pm2)
 
+## 另外一个优秀的方案
+http://pm2.keymetrics.io/docs/usage/deployment/#windows-consideration
+
 
 
 
